@@ -4,7 +4,7 @@ go 1.23.1
 
 require (
 	github.com/Cellularhacker/apiError-go v0.0.4
-	github.com/Cellularhacker/apiHandler-go v1.1.0
+	github.com/Cellularhacker/apiHandler-go v1.1.3
 	github.com/Cellularhacker/logger-go v1.0.4
 	github.com/gin-gonic/gin v1.10.0
 	github.com/goccy/go-json v0.10.3
