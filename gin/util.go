@@ -6,22 +6,22 @@ import (
 	"net/http"
 )
 
-func CoffeeGET(w http.ResponseWriter, _ *http.Request, _ gin.Params) Gin {
-	return ToGin(apiHandler.CoffeeGET)
+func CoffeeGET(w http.ResponseWriter, _ *http.Request, _ gin.Params) gin.HandlerFunc {
+	return ToGin(apiHandler.CoffeeGET).Handle()
 }
 
-func CreateTestPOST(w http.ResponseWriter, _ *http.Request, _ gin.Params) Gin {
-	return ToGin(apiHandler.CreateTestPOST)
+func CreateTestPOST(w http.ResponseWriter, _ *http.Request, _ gin.Params) gin.HandlerFunc {
+	return ToGin(apiHandler.CreateTestPOST).Handle()
 }
 
-func OKTestPOST(w http.ResponseWriter, _ *http.Request, _ gin.Params) Gin {
-	return ToGin(apiHandler.OKTestPOST)
+func OKTestPOST(w http.ResponseWriter, _ *http.Request, _ gin.Params) gin.HandlerFunc {
+	return ToGin(apiHandler.OKTestPOST).Handle()
 }
 
-func Ping(_ http.ResponseWriter, _ *http.Request, _ gin.Params) Gin {
+func Ping(_ http.ResponseWriter, _ *http.Request, _ gin.Params) gin.HandlerFunc {
 	return ToGin(apiHandler.Ping)
 }
 
-func Info() Gin {
-	return ToGin(apiHandler.Info)
+func Info() gin.HandlerFunc {
+	return ToGin(apiHandler.Info).Handle()
 }
