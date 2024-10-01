@@ -46,12 +46,12 @@ func (gh Gin) Handle() gin.HandlerFunc {
 	}
 }
 
-func APIGin(handler Gin) gin.HandlerFunc {
+func Handle(handler Gin) gin.HandlerFunc {
 	return handler.Handle()
 }
 
-func ToGin(dh apiHandler.DefaultHandler) Gin {
+func ToGin(h apiHandler.DefaultHandler) Gin {
 	return func(w http.ResponseWriter, r *http.Request, p gin.Params) *apiError.Error {
-		return dh(w, r)
+		return h(w, r)
 	}
 }
