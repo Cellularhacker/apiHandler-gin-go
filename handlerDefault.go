@@ -41,8 +41,6 @@ func (h APIHandler) Handle() http.HandlerFunc {
 	}
 }
 
-func Default(handler APIHandler) http.HandlerFunc {
+func Handle(handler APIHandler) http.HandlerFunc {
 	return handler.Handle()
 }
-
-type DefaultHandler func(http.ResponseWriter, *http.Request) *apiError.Error
