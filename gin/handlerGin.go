@@ -50,7 +50,7 @@ func Handle(handler Gin) gin.HandlerFunc {
 	return handler.Handle()
 }
 
-func ToGin(h apiHandler.DefaultHandler) Gin {
+func ToGin(h apiHandler.APIHandler) Gin {
 	return func(w http.ResponseWriter, r *http.Request, p gin.Params) *apiError.Error {
 		return h(w, r)
 	}
