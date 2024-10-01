@@ -2,6 +2,8 @@ github.com/Cellularhacker/apiError-go v0.0.4 h1:r7fVYMblg7YosRXrJo9xKY5aCKICnKaF
 github.com/Cellularhacker/apiError-go v0.0.4/go.mod h1:hbXJtMyxxWTHHkuviozwoIYqlP2Qp3+Nqthn4qeP+8I=
 github.com/Cellularhacker/apiHandler-go v1.1.0 h1:oR6jLK53+xaotUvhvNdbcqg4Y3fJ0JrLlaubR+HgZ5M=
 github.com/Cellularhacker/apiHandler-go v1.1.0/go.mod h1:duqzWwGbGs4whQ16T8A4xPCn3s7+WkIqKaejVNvsVvs=
+github.com/Cellularhacker/apiHandler-go v1.1.2 h1:ycHXjlor7vEi2SfoNpc2Q1dlm2UVTWhp9jwJy97FtYE=
+github.com/Cellularhacker/apiHandler-go v1.1.2/go.mod h1:O0Fdq/gXSS73QBUX2wl3j0CwWG8nMRyiJAjhgke9tbE=
 github.com/Cellularhacker/logger-go v1.0.4 h1:zF4fjkrvKGOB3IOZ6+H7PIbqShXl3o+F/1iMONRhkAw=
 github.com/Cellularhacker/logger-go v1.0.4/go.mod h1:bC3QFDkIg9xsgXisy9Cjc3OTAvOG4VVbWSiS3SQUgLs=
 github.com/Cellularhacker/util-go v0.0.8 h1:/NciHDFhFkt5zuc5n6Yqt8i/mM2UBcasw7pQSoHTMqw=
