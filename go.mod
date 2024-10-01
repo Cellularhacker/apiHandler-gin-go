@@ -10,6 +10,7 @@ require (
 )
 
 require (
+	github.com/Cellularhacker/util-go v0.0.7 // indirect
 	github.com/bytedance/sonic v1.12.3 // indirect
 	github.com/bytedance/sonic/loader v0.2.0 // indirect
 	github.com/cloudwego/base64x v0.1.4 // indirect
